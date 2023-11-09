@@ -1,1 +1,1 @@
-export const USERNAME = '@codebayu'
+export const USERNAME = 'Anime Website'

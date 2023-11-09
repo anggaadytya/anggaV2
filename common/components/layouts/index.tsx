@@ -12,7 +12,7 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <Header />
       {children}
-      <Footer />
+   
     </>
   )
 }

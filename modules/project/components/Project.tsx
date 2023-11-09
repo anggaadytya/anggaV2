@@ -1,11 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const Project = () => {
   return (
     <main className="w-full h-screen flex justify-center items-center">
-      <h1 className="font-bold text-2xl">About Page</h1>
+      <h1 className="font-bold text-2xl">Project Page</h1>
     </main>
   )
 }
 
-export default About
+export default Project
