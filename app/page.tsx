@@ -1,9 +1,10 @@
 import Home from '@/modules/home'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Home Page | Angga Adytya',
   description: 'Merupakan Portofolio Angga Adytya',
-  opengraph: {
+  openGraph: {
     title: 'Home Page | Angga Adytya'
   },
   twitter: {
