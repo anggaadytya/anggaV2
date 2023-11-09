@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: METADATA.creator,
     description: METADATA.description,
-    images: 'https://avatars.githubusercontent.com/u/114200420?v=4',
+    images: METADATA.profile,
     url: METADATA.openGraph.url,
     siteName: METADATA.openGraph.siteName,
     locale: METADATA.openGraph.locale,
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    description: METADATA.description,
     title: METADATA.creator,
-    images: 'https://avatars.githubusercontent.com/u/114200420?v=4'
+    description: METADATA.description,
+    images: METADATA.profile
   }
 }
 
