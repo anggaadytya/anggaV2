@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <Layout>{children}</Layout>
-        <GoogleAnalytics measurementId={process.env.GTM_ID || ''} />
+        <GoogleAnalytics measurementId="G-5VH5C8W3XS" />
       </body>
     </html>
   )
