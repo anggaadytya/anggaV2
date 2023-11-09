@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     canonical: METADATA.openGraph.url
   },
   openGraph: {
-    title: METADATA.creator,
     description: METADATA.description,
     images: [
       {
@@ -35,7 +34,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: METADATA.creator,
     description: METADATA.description,
     images: "https://avatars.githubusercontent.com/u/114200420?v=4"
   }
