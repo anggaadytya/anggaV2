@@ -1,6 +1,6 @@
 export const METADATA = {
     creator: 'Muhammad Angga Adytya',
-    description: 'Personal website, portfolio, fFrontend developer, projects, and more.',
+    description: 'Personal website, portfolio, Frontend developer, projects, and more.',
     keyword: 'angga adytya, angga adytya personal website, programming, belajar javascript, belajar typescript, belajar nextjs, frontend developer, React Developer, Next Developer',
     authors: {
       name: 'Muhammad Angga Adytya',
