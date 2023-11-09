@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 
+import GoogleAnalytics from '@bradgarropy/next-google-analytics'
+
 import Layout from '@/common/components/layouts'
 import { METADATA } from '@/common/constant/metadata'
 
@@ -42,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <Layout>{children}</Layout>
+        <GoogleAnalytics measurementId={process.env.GTM_ID || ''} />
       </body>
     </html>
   )
