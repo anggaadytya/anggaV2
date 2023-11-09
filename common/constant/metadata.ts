@@ -12,5 +12,5 @@ export const METADATA = {
       locale: 'id-ID'
     },
     exTitle: '| Angga Adytya',
-    profile: '"https://avatars.githubusercontent.com/u/114200420?v=4"'
+    profile: 'https://avatars.githubusercontent.com/u/114200420?v=4'
   }
