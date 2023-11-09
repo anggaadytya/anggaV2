@@ -4,10 +4,10 @@ export const METADATA = {
     keyword: 'angga adytya, angga adytya personal website, programming, belajar javascript, belajar typescript, belajar nextjs, frontend developer, React Developer, Next Developer',
     authors: {
       name: 'Muhammad Angga Adytya',
-      url: 'https://anggaadytya.com'
+      url: 'https://anggaadytya.vercel.app'
     },
     openGraph: {
-      url: 'https://anggaadytya.com',
+      url: 'https://anggaadytya.vercel.app/',
       siteName: 'Angga Adytya',
       locale: 'id-ID'
     },

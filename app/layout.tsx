@@ -9,6 +9,7 @@ import './globals.css'
 const inter = Poppins({ weight: '400', subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(METADATA.openGraph.url),
   description: METADATA.description,
   keywords: METADATA.keyword,
   creator: METADATA.creator,
