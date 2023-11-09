@@ -23,7 +23,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: METADATA.creator,
     description: METADATA.description,
-    images: "https://avatars.githubusercontent.com/u/114200420?v=4",
+    images: [
+      {
+        url:"https://avatars.githubusercontent.com/u/114200420?v=4",
+      }
+    ],
     url: METADATA.openGraph.url,
     siteName: METADATA.openGraph.siteName,
     locale: METADATA.openGraph.locale,
