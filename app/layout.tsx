@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: METADATA.openGraph.url
   },
   openGraph: {
-    title: METADATA.creator,
+    title: `Home Page | ${METADATA.creator}`,
     description: METADATA.description,
     images: METADATA.profile,
     url: METADATA.openGraph.url,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: METADATA.creator,
+    title: `Home Page | ${METADATA.creator}`,
     description: METADATA.description,
     images: METADATA.profile
   }
