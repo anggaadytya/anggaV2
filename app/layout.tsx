@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: METADATA.openGraph.url
-    
   },
   openGraph: {
     images: METADATA.profile,
