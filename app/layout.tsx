@@ -22,11 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     description: METADATA.description,
-    images: [
-      {
-        url:"https://avatars.githubusercontent.com/u/114200420?v=4",
-      }
-    ],
+    images: 'https://avatars.githubusercontent.com/u/114200420?v=4',
     url: METADATA.openGraph.url,
     siteName: METADATA.openGraph.siteName,
     locale: METADATA.openGraph.locale,
@@ -35,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     description: METADATA.description,
-    images: "https://avatars.githubusercontent.com/u/114200420?v=4"
+    images: 'https://avatars.githubusercontent.com/u/114200420?v=4'
   }
 }
 
