@@ -21,11 +21,19 @@ export const metadata: Metadata = {
     canonical: METADATA.openGraph.url
   },
   openGraph: {
+    title: METADATA.creator,
+    description: METADATA.description,
     images: METADATA.profile,
     url: METADATA.openGraph.url,
     siteName: METADATA.openGraph.siteName,
     locale: METADATA.openGraph.locale,
     type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: METADATA.creator,
+    description: METADATA.description,
+    images: METADATA.profile
   }
 }
 
